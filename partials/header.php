@@ -16,12 +16,13 @@
     <div class="navbar navbar-fixed-top bg-dark text-white navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a href="#" class="navbar-brand text-white">CAMARA  </a>
+                <a href="index.php" class="navbar-brand text-white">CAMARA  </a>
             </div>
         </div>
+        <div><a class="text-white text-decoration-none bold " href="login.php">Connexion</a></div>
     </div>
+</header>
     <div class="container">
         <p>&nbsp;</p>
         <!-- <p>&nbsp;</p>
         <p>&nbsp;</p> -->
-    </header>
