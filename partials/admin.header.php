@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
    
-    <title>CAMARA Daouda </title>
+    <title>CAMARA Daouda-admin </title>
 </head>
 
 <body>
@@ -18,6 +18,9 @@
             <div class="navbar-header">
                 <a href="index.php" class="navbar-brand text-white">CAMARA  </a>
             </div>
+            <ul class="navbar nav ">
+                <li><a href="category.php">Catégories </a></li>
+            </ul>
         </div>
         <div><a class="text-white text-decoration-none bold " href="login.php">Connexion</a></div>
     </div>

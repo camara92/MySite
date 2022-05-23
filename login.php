@@ -10,7 +10,11 @@ if (isset($_POST['username']) && isset($_POST['pwd'])) {
         //si superier à 0 donc connecté 
         // var_dump($select->fetchAll());
         $_SESSION['auth'] = $select->fetch();
-        header('Location:' . WEBROOT . 'admin/index.php');
+        //si conncté 
+        setFlash('Vous êtes bien connecté ! Bienvenue '); 
+      header('Location:' . WEBROOT . 'admin/index.php');
+      die(); 
+      //pour arrêter 
     }
 }
 
