@@ -1,7 +1,8 @@
 <?php $auth =0;  ?>
 <?php include ("lib/includes.php")?>
 <?php include("partials/header.php"); ?>
-<h1 class="text-center text-white  bg-info border p-2 my-3">Bienvenue dans mon blog </h1>
+<br><br><br><br>
+<h1 class="text-center text-white  bg-info border p-2 ">Bienvenue dans mon blog </h1>
 <main>
        
         <div id="slider">

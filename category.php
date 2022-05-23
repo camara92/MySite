@@ -24,13 +24,13 @@ if(isset($_GET['delete'])){
  */
 $select =  $bd->query("SELECT id, name, slug from categories"); 
 $categories = $select->fetchAll(); 
-
+echo '<br><br><br>';
 
 ?>
 
-<h1 class="container-fluid text-center bg-primary p-2 text-white  ">Les catégories </h1>
+<h1 class="container-fluid text-center bg-primary p-2 text-white mb-1 ">Les catégories </h1>
 <p><a href="category.edit.php" class="btn btn-success container  p-2">Ajouter une nouvelle catégorie </a></p>
-<table class="table table-stripped bg-light border">
+<table class="table table-stripped bg-light border container">
     <!-- <?= var_dump($categories) ?> -->
     <thead>
         <tr class="bg-dark text-white text-center">
@@ -45,8 +45,8 @@ $categories = $select->fetchAll();
                 <td><?= $categorie['id']; ?></td>
                 <td><?= $categorie['name']; ?></td>
                 <td>
-                    <a href="categorie.edit.php?id=<?=$categorie['id']; ?>" class="btn btn-default">Modifier</a>
-                    <a href="?delete=<?= $categorie['id']; ?>&<?= csrf(); ?>" class="btn btn-error" onclick="return confirm('voulez-vous vraimernt supprimer ?');">Supprimer</a>
+                    <a href="categorie.edit.php?id=<?=$categorie['id']; ?>" class="btn btn-default"><i class="fa-regular fa-pen-to-square"></i></a>
+                    <a href="?delete=<?= $categorie['id']; ?>&<?= csrf(); ?>" class="btn btn-error" onclick="return confirm('voulez-vous vraimernt supprimer ?');"><i class="fa-regular fa-trash-can"></i></a>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -55,5 +55,5 @@ $categories = $select->fetchAll();
 
 
 <?php
-//include ("partials/footer.php"); 
+include ("partials/footer.php"); 
 ?>

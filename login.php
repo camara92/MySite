@@ -22,25 +22,28 @@ if (isset($_POST['username']) && isset($_POST['pwd'])) {
  * mettre le header 
  */
 include("partials/header.php");
+
+echo '<br><br><br>';
 ?>
 
 
-<body>
+
+
+
 
     <div>
 
-        <form class="container w-50 bg-info my-5" action="#" method="post">
-            <div class="form-group">
+        <form class="container w-50 bg-info " action="#" method="post">
+            <div class="form-group p-2">
                 <label for="username">Nom utilisateur </label>
                 <?= input('username');  ?>
             </div>
-            <div class="form-group">
+            <div class="form-group p-2">
                 <label for="pwd">Mot de passe </label>
                 <input type="pwd" class="form-control" id="pwd" name="pwd">
             </div>
             <button class="btn btn-success container-fluid" type="submit">Se connecter</button>
         </form>
     </div>
-</body>
-<!-- <?php include("lib/debug.php"); ?> -->
-<?php include("partials/footer.php"); ?>
+    <!-- <?php include("lib/debug.php"); ?> -->
+    <?php include("partials/footer.php"); ?>

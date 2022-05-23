@@ -4,7 +4,9 @@
 #conIn a{
     font-size: 25px;
 }
-
+#haut{
+    z-index: 99999;
+}
 /**
 styles 
 */
@@ -14,13 +16,16 @@ header{
     font-weight: bold;
     padding: 0;
     margin: 0; 
+ width: 100%;
+    position: fixed;
+    z-index: 999;
    
    
 
 }
 .navbarheader {
   
-    z-index: 999;
+    z-index: 9;
    
 }
  .container {
@@ -176,7 +181,7 @@ footer{
     color : rgb(175, 9, 184); 
     font-weight: bold;
     border: 0.1px solid transparent;
-    z-index: 99;
+    /* z-index: 99; */
     width: 50%;
     margin: 0 auto;
     font-size: 50px;

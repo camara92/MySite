@@ -14,11 +14,12 @@
 
 <body>
     <header>
-        <div class="navbar navbar-fixed-top bg-dark text-white navbar-inverse" role="navigation">
+        <div id="haut" class="navbar navbar-fixed-top bg-dark text-white navbar-inverse" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <a href="index.php" class="navbar-brand text-white">CAMARA </a>
                     <a href="category.php" class="navbar-brand text-white">Mes compétences </a>
+                    <a href="category.php" class="navbar-brand text-white">Projets </a>
                 </div>
             </div>
             <div class="bold" id="conIn">
