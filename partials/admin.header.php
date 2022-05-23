@@ -22,7 +22,7 @@
                 <li><a href="category.php">Catégories </a></li>
             </ul>
         </div>
-        <div><a class="text-white text-decoration-none bold " href="login.php">Connexion</a></div>
+       
     </div>
 </header>
     <div class="container">

@@ -1,6 +1,6 @@
 <?php
-    include ("../lib/includes.php"); 
-    include ("../partials/admin.header.php"); 
+    include ("lib/includes.php"); 
+    include ("partials/header.php"); 
 
  
    /**
@@ -55,5 +55,5 @@ $categories = $select->fetchAll();
 
 
 <?php
-include ("../partials/footer.php"); 
+//include ("partials/footer.php"); 
 ?>
