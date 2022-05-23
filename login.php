@@ -25,11 +25,11 @@ include("partials/header.php");
 ?>
 
 
-<body class="login bg-info">
+<body>
 
     <div>
 
-        <form class="container w-50 bg-light my-5" action="#" method="post">
+        <form class="container w-50 bg-info my-5" action="#" method="post">
             <div class="form-group">
                 <label for="username">Nom utilisateur </label>
                 <?= input('username');  ?>
@@ -38,9 +38,9 @@ include("partials/header.php");
                 <label for="pwd">Mot de passe </label>
                 <input type="pwd" class="form-control" id="pwd" name="pwd">
             </div>
-            <button class="btn btn-default" type="submit">Se connecter</button>
+            <button class="btn btn-success container-fluid" type="submit">Se connecter</button>
         </form>
     </div>
 </body>
-<?php include("lib/debug.php"); ?>
+<!-- <?php include("lib/debug.php"); ?> -->
 <?php include("partials/footer.php"); ?>
