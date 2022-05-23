@@ -30,7 +30,7 @@ echo '<br><br><br>';
 
 
 
-
+<H1 class="container bg-primary text-white text-center p-3 shadow bold ">Bienvenue sur la page de connexion </H1>
     <div>
 
         <form class="container w-50 bg-info " action="#" method="post">
@@ -42,7 +42,7 @@ echo '<br><br><br>';
                 <label for="pwd">Mot de passe </label>
                 <input type="pwd" class="form-control" id="pwd" name="pwd">
             </div>
-            <button class="btn btn-success container-fluid" type="submit">Se connecter</button>
+            <button class="btn bg-dark text-white container-fluid" type="submit">Se connecter</button>
         </form>
     </div>
     <!-- <?php include("lib/debug.php"); ?> -->

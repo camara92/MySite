@@ -24,7 +24,7 @@
             </div>
             <div class="bold" id="conIn">
                 <a class="text-white text-decoration-none bold g-5  " href="login.php">Connexion</a>
-                <a class="text-white text-decoration-none bold " href="login.php">Inscription</a>
+                <a class="text-white text-decoration-none bold " href="signup.php">Inscription</a>
             </div>
         </div>
     </header>

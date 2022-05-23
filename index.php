@@ -16,5 +16,7 @@
             </div>
         </div>
     </main>
+
+
 <!-- <?php include("lib/debug.php"); ?> -->
 <?php include("partials/footer.php"); ?>
